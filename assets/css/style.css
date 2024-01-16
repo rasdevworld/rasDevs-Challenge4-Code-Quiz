@@ -51,9 +51,9 @@ section p {
     border-radius: 10px;
 }
 
-/*#start-quiz-btn:hover {
+#start-quiz-btn:hover {
     background-color: blueviolet;
-}*/
+}
 
 #question-section {
     font-size: 20px;
@@ -78,9 +78,9 @@ section p {
     color: white;
 }
 
-/*#choice-list li button:hover {
+#choice-list li button:hover {
     background-color: blueviolet;
-}*/
+}
 
 #result-blk {
     border-top: 2px solid gray;
@@ -113,7 +113,7 @@ section p {
     height: 40px;
 }
 
-#start-quiz-btn, #choice-list li button, #submit-initials-btn:hover {
+ #submit-initials-btn:hover {
     background-color: blueviolet;
 }
 
