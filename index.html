@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header>
+        <label id="view-score">View high scores</label>
+        <nav>
+            <label id="timer-label">Timer: <span id="timer">0</span></label>
+        </nav>
+    </header>
+    <main>
+        <section id="quiz-intro">
+            <label>Coding Quiz Challenge</label>
+            <p>Try to answer following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button id="start-quiz-btn">Start Quiz</button>
+            
+        </section>
+        <section class="hide" id="question-section">
+            <h1 id="question-title"></h1>
+            <ol id="choice-list"></ol>
+        </section>
+        <section id ="result-blk" class="hide"> <br>      
+            <label id="message"></label>
+        </section>
+        <section class="hide" id="initials-input">
+            <label>All Done!</label>
+            <p>
+                Your final score is <span id="final-score"></span>.
+            </p><br>
+                Enter initials: <input type="text" id="input-initials">
+                <button id="submit-initials-btn">Submit</button>
+        </section>
+        <section class="hide" id="high-scores">
+            <label>High scores</label>
+            <ol class= "hide" id="high-score-list"></ol>
+            <button id="go-back-btn">Go Back</button><button id="clear-high-score-btn">Clear High Scores</button>
+        </section>
+    </main>
+    <script src="./assets/js/questionData.js"></script>
+    <script src="./assets/js/studentData.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
