@@ -31,7 +31,7 @@ MIT License - The License file is provided here : (./LICENSE)
 
 ## Screenshot
 
-![Alt text](assets/images/high-scores.png) ![Alt text](assets/images/multiple-choice-question.png) ![Alt text](assets/images/start-quiz.png) ![Alt text](assets/images/submit-initials.png)
+![Alt text](assets/images/start-quiz.png) ![Alt text](assets/images/multiple-choice-question.png) ![Alt text](assets/images/submit-initials.png) ![Alt text](assets/images/high-scores.png) 
 
 
 ## Deployed Page and GitHub Repository
